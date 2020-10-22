@@ -58,6 +58,37 @@ table{
 
 }
 
+table td
+{
+  border: solid #FFFFFF 2px;
+  width: 53%;
+  white-space:nowrap;
+  padding: 3px;
+  margin: 3px;
+}
+
+table th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  border: solid #FFFFFF 2px;
+  background-color: rgba(247, 116, 25, 0.8);
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0; 
+
+}
+
+table td:first-child {
+  width:58%;
+  text-align: left;
+}
+
+table :last-child {
+  width:1000px;
+}
 
 /*#top-image {
 	background: url('../images/hampi.jpg') -25px -50px;
