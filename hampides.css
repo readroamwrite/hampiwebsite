@@ -41,6 +41,24 @@ header h1{
 
 }
 
+table{
+  color: #000000;
+  background-color: rgba(209, 224, 199, 0.81);
+  width: auto;
+  border-collapse: collapse;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 15px;
+  font-family: 'Candara', 'Optima';
+  border: solid #FFFFFF 2px;
+  border-radius: 10px 10px 0 0;
+  table-layout: fixed;
+  text-align: center;
+  margin-left: 1%;
+
+}
+
+
 /*#top-image {
 	background: url('../images/hampi.jpg') -25px -50px;
 	top:0;
