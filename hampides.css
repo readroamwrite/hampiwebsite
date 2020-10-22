@@ -1,0 +1,63 @@
+
+/*@font-face {
+    font-family: 'Cursive-web';
+    src: url('fonts/@font-face/d5904750d1081c74dc2665d27d553646.eot');
+    src: url('fonts/@font-face/d5904750d1081c74dc2665d27d553646.eot?#iefix') format('embedded-opentype'),
+         url('fonts/@font-face/d5904750d1081c74dc2665d27d553646.woff2') format('woff2'),
+         url("fonts/@font-face/d5904750d1081c74dc2665d27d553646.woff") format("woff")
+         url('fonts/@font-face/d5904750d1081c74dc2665d27d553646.ttf') format('truetype'),
+         url('fonts/d5904750d1081c74dc2665d27d553646.svg#Cursive-web') format('svg');
+}*/
+
+html{
+    margin-top:0;
+    padding-top:0;
+}
+body{
+    margin-top:0;
+    padding-top:0;
+}
+
+header{
+	background-color: rgba(71, 2, 36, 0.24);
+	
+	background-size: 100%;
+	height: 400px;
+	background-image: url('../images/hampi.jpg');
+	-webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+}
+
+header h1{
+	padding-top: 150px;
+	font-family: 'papyrus', cursive;
+	font-size: 70px;
+	color:#FFFFFF;
+	position: relative;
+	font-style: bold;
+	text-align: center;
+
+}
+
+/*#top-image {
+	background: url('../images/hampi.jpg') -25px -50px;
+	top:0;
+	width:100%;
+	z-index:0;
+  	height:400px;
+  	background-size: calc(100% + 50px);
+}*/
+
+
+/*@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}
+
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}*/
+
