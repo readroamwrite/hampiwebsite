@@ -90,17 +90,21 @@ table :last-child {
   width:1000px;
 }
 
-/*#top-image {
+tr:hover{
+  background-color: rgba(248, 181, 98, 0.8);
+}
+
+#top-image {
 	background: url('../images/hampi.jpg') -25px -50px;
 	top:0;
 	width:100%;
 	z-index:0;
   	height:400px;
   	background-size: calc(100% + 50px);
-}*/
+}
 
 
-/*@keyframes backgroundScroll {
+@keyframes backgroundScroll {
     from {background-position: 0 0;}
     to {background-position: -180px 0px;}
 }
@@ -108,5 +112,5 @@ table :last-child {
 @-webkit-keyframes backgroundScroll {
     from {background-position: 0 0;}
     to {background-position: -180px 0px;}
-}*/
+}
 
